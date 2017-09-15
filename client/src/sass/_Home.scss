@@ -1,0 +1,86 @@
+//HOME PAGE AKA '/'
+
+.myvote-banner {
+    height: 42.5vh;
+    width: 100vw;
+    background: $primary;
+}
+
+#home-icon-wrapper {
+    height: 85vh;    
+}
+
+#home-icon {
+    width: 80vw;
+    height: 45vw;
+}
+
+#home-cards-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card {
+    width: 30vw!important;
+    padding: 1vw!important;
+    text-align: center!important;
+}
+
+
+//LOGIN LANDING PAGE AKA '/AUTH/:USER_ID'
+
+#auth-top {
+    height: 50vh;
+}
+
+#auth-steps {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#create-steps {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 10vw 5vh 10vw;
+}
+
+#view-mypoll-steps {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 10vw 5vh 10vw;
+}
+
+#step-delete {
+    height: 3.5vh;
+    width: 4vh;
+}
+
+#search-polls-steps {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 10vw 5vh 10vw;
+}
+
+#auth-profile {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    
+    #user-card {
+        margin-top: 10vh;
+        
+        #user-card-header {
+            text-align: center;
+            padding: 1vh;
+        }
+    }
+}
+
+.update-input {
+    width: 33vw;
+    margin-bottom: 1vh;
+}

@@ -1,0 +1,22 @@
+@import './_Variables';
+@import './_Signup';
+@import './_Home';
+@import './_CreatePoll';
+@import './_Search';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-wrapper {
+  margin-top: 15vh;
+}

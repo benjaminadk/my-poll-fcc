@@ -1,0 +1,128 @@
+.login-input {
+  width: 25vw;
+  margin-bottom: 1vh; }
+
+.oauth-button {
+  width: 18vw; }
+
+.myvote-banner {
+  height: 42.5vh;
+  width: 100vw;
+  background: #7ce4ff; }
+
+#home-icon-wrapper {
+  height: 85vh; }
+
+#home-icon {
+  width: 80vw;
+  height: 45vw; }
+
+#home-cards-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.home-card {
+  width: 30vw !important;
+  padding: 1vw !important;
+  text-align: center !important; }
+
+#auth-top {
+  height: 50vh; }
+
+#auth-steps {
+  margin-top: 10vh;
+  margin-bottom: 10vh; }
+
+#create-steps {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 10vw 5vh 10vw; }
+
+#view-mypoll-steps {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 10vw 5vh 10vw; }
+
+#step-delete {
+  height: 3.5vh;
+  width: 4vh; }
+
+#search-polls-steps {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 10vw 5vh 10vw; }
+
+#auth-profile {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center; }
+  #auth-profile #user-card {
+    margin-top: 10vh; }
+    #auth-profile #user-card #user-card-header {
+      text-align: center;
+      padding: 1vh; }
+
+.update-input {
+  width: 33vw;
+  margin-bottom: 1vh; }
+
+.poll-input-title {
+  width: 50vw;
+  margin-bottom: 1vh; }
+
+.poll-input {
+  width: 25vw;
+  margin-bottom: 1vh; }
+
+#create-poll-header, #my-polls-header {
+  font-size: 2.5rem; }
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button-wrapper {
+  margin: 5vh 12.5vw;
+  display: flex;
+  justify-content: space-around;
+  width: 75vw; }
+
+.poll-message {
+  width: 40vw;
+  margin: 0 30vw; }
+
+.poll-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh; }
+
+.myPolls-list a {
+  font-size: 1.5rem; }
+
+#confirm-delete {
+  background: #FF0000 !important; }
+
+#search-input {
+  width: 33vw; }
+
+#search-button {
+  margin: 1vh auto 2vh; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.component-wrapper {
+  margin-top: 15vh; }

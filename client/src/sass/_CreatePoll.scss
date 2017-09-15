@@ -1,0 +1,47 @@
+.poll-input-title {
+    width: 50vw;
+    margin-bottom: 1vh;
+}
+
+.poll-input {
+    width: 25vw;
+    margin-bottom: 1vh;
+}
+
+#create-poll-header, #my-polls-header {
+    font-size: 2.5rem;
+}
+
+.chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    margin: 5vh 12.5vw;
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+.poll-message {
+    width: 40vw;
+    margin: 0 30vw;
+}
+
+.poll-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.myPolls-list {
+    a {
+        font-size: 1.5rem;
+    }
+}
+
+#confirm-delete {
+    background: #FF0000!important;
+}
